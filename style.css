@@ -15,7 +15,7 @@ img {
 
 /*Common Button*/
 .common-bot {
-    background-color: blue;
+    background-color: #1D4ED8;
     color: white;
     padding: 10px 30px;
     border-radius: 7px;
@@ -23,8 +23,8 @@ img {
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
-
 }
+
 
 /*Start Nav Style*/
 header {
@@ -38,8 +38,6 @@ nav {
     list-style: none;
     align-items: center;
     text-align: center;
-
-
 }
 
 .nav-menu {
@@ -47,8 +45,6 @@ nav {
     justify-content: space-between;
     gap: 30px;
     list-style: none;
-
-
 }
 
 ul li a {
@@ -56,4 +52,42 @@ ul li a {
     color: #575757;
     list-style: none;
     font-size: 20px;
+}
+
+
+/* Start Hero Section */
+
+.hero-parent {
+    background-image: url("./image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero-content {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero-content h2 {
+    font-weight: bold;
+    font-size: 80PX;
+}
+
+.hero-content p {
+    color: #cac5c5;
+    padding: 10px 0;
+}
+
+.hero-bot {
+    margin-top: 350px;
+    padding: 17px 40px;
+    border-radius: 10px;
+    font-size: 22px;
+    border: 0px solid;
 }

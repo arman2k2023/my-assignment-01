@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Common Button*/
+.common-bot {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+/*Start Nav Style*/
+header {
+    background-color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #575757;
+    list-style: none;
+    font-size: 20px;
+}

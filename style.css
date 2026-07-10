@@ -25,6 +25,11 @@ img {
     cursor: pointer;
 }
 
+/*Common Color*/
+.common-color {
+    color: #1D4ED8;
+    padding: 5px 0;
+}
 
 /*Start Nav Style*/
 header {
@@ -90,4 +95,44 @@ ul li a {
     border-radius: 10px;
     font-size: 22px;
     border: 0px solid;
+}
+
+/*Start Speaker Section*/
+
+.speaker-parent {
+    padding: 70px 0;
+    align-items: center;
+}
+
+.speaker-parent h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-card {
+    background-color: rgb(241, 240, 236);
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+
+.card-content {
+    padding: 15px 7px;
+    text-align: left;
+}
+
+.card-content h3 {
+    padding: 5px 0;
+    color: #0D1B2A;
+}
+
+.card-content p {
+    padding: 5px 0;
+    color: #575757;
 }

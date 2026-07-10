@@ -35,7 +35,7 @@ img {
 
 /*Start Nav Style*/
 header {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 nav {
@@ -153,6 +153,7 @@ ul li a {
 }
 
 .secure-content-h2 {
+    color: #0D1B2A;
     text-align: center;
     margin-bottom: 15px;
     font-size: 48px;
@@ -161,6 +162,7 @@ ul li a {
 .secure-content-p {
     text-align: center;
     margin-bottom: 20px;
+    color: #0D1B2A;
 }
 
 .secure-content-card {
@@ -171,7 +173,7 @@ ul li a {
 }
 
 .pricing-same {
-    background-color: rgb(145, 134, 98);
+    background-color: rgb(56, 49, 27);
     border-radius: 10px;
     padding: 40px 15px;
     border: none;
@@ -219,7 +221,7 @@ ul li a {
 
 /* Common Button-2 */
 
-.common-bot2 {
+.common-btn2 {
     display: block;
     background-color: white;
     color: rgb(10, 7, 3);
@@ -244,9 +246,9 @@ ul li a {
 /* Sponsors Section */
 
 .sponsors {
+    background-color: #f7f3f3;
     padding: 80px 0;
     text-align: center;
-    background-color: #f5f1f1;
 }
 
 .sponsors h2 {
@@ -283,4 +285,51 @@ ul li a {
     display: block;
     margin: 40px auto 0;
     font: size 20px;
+}
+
+
+
+
+/* Start Footer Section */
+
+.footer {
+    background-color: #183049;
+    padding: 18px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-left: 70px;
+
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-right: 70px;
+}
+
+.footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.footer hr {
+    border: none;
+    border-top: 1px solid #374151;
+    margin: 25px 0;
+}
+
+.copyright {
+    font-size: 18px;
+    text-align: center;
+    color: #c7cfdb;
 }

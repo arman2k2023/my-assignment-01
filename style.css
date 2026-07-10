@@ -25,6 +25,8 @@ img {
     cursor: pointer;
 }
 
+
+
 /*Common Color*/
 .common-color {
     color: #1D4ED8;
@@ -135,4 +137,95 @@ ul li a {
 .card-content p {
     padding: 5px 0;
     color: #575757;
+}
+
+/*Start Secure Section*/
+
+.secure-parent {
+    padding: 80px 0;
+}
+
+.secure-content-h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 48px;
+}
+
+.secure-content-p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secure-content-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.pricing-same {
+    background-color: rgb(145, 134, 98);
+    border-radius: 10px;
+    padding: 40px 15px;
+    border: none;
+}
+
+.pricing-dif {
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    padding: 40px 15px;
+    border: none;
+}
+
+.pricing-h5 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #d5dcf0;
+}
+
+.custom {
+    color: #93C5FD;
+}
+
+.pricing-h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pricing-p {
+    margin-bottom: 20px;
+    color: #ddcdcd;
+}
+
+.secure-content-card ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.secure-content-card ul li {
+    padding: 3px 0;
+    color: #FFFFFF;
+}
+
+/*Common Button-2*/
+
+.common-bot2 {
+    display: block;
+    background-color: white;
+    color: rgb(10, 7, 3);
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pro {
+    background-color: blue;
+    color: #FFFFFF;
 }

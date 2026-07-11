@@ -84,6 +84,7 @@ ul li a {
 .hero-content h2 {
     font-weight: bold;
     font-size: 80PX;
+
 }
 
 .hero-content p {
@@ -114,6 +115,8 @@ ul li a {
     text-align: center;
     font-size: 35px;
     margin-bottom: 50px;
+    color: #0D1B2A;
+    font-weight: bold;
 }
 
 .card-container {
@@ -243,10 +246,10 @@ ul li a {
 
 
 
-/* Sponsors Section */
+/* Start Sponsor Section */
 
 .sponsors {
-    background-color: #f7f3f3;
+    background-color: #f1ebeb;
     padding: 80px 0;
     text-align: center;
 }
@@ -254,6 +257,8 @@ ul li a {
 .sponsors h2 {
     font-size: 48px;
     margin-bottom: 15px;
+    color: #0D1B2A;
+    font-weight: bold;
 }
 
 .sponsors p {
@@ -283,10 +288,41 @@ ul li a {
 
 .modify {
     display: block;
-    margin: 40px auto 0;
-    font: size 20px;
+    margin: 0 auto;
+    font-size: 20px;
 }
 
+
+/* CTA Section */
+
+.sponsor-cta {
+    margin-top: 60px;
+}
+
+.partner-tag {
+    display: inline-block;
+    background: #dbeafe;
+    color: #2563eb;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sponsor-cta h3 {
+    font-size: 32px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.sponsor-cta p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #6b7280;
+    font-size: 18px;
+    line-height: 1.7;
+}
 
 
 
@@ -295,6 +331,7 @@ ul li a {
 .footer {
     background-color: #183049;
     padding: 18px 0;
+    margin-top: 80px;
 }
 
 .footer-content {
@@ -328,8 +365,30 @@ ul li a {
     margin: 25px 0;
 }
 
-.copyright {
-    font-size: 18px;
-    text-align: center;
-    color: #c7cfdb;
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p {
+    color: #d1d5db;
+    margin-left: 80px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+    margin-right: 80px;
+}
+
+.footer-links a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-links a:hover {
+    color: white;
 }
